@@ -1,0 +1,38 @@
+﻿<Window x:Class="MyMunicipality.ServiceRequestStatus"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyMunicipality"
+        mc:Ignorable="d"
+        Title="Service Request Status" Height="600" Width="900" Background="#FFF7F7F7" ResizeMode="CanResize">
+    <Grid>
+
+        <local:NavigationBar VerticalAlignment="Top" />
+
+        <Grid Margin="20,83,20,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Row="0" Grid.ColumnSpan="2" Background="#FF28965A" CornerRadius="8" Padding="10" Margin="0,0,0,10">
+                <TextBlock Text="Requested Services" FontSize="24" FontWeight="Bold" Foreground="White" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Border>
+
+            <StackPanel Grid.Row="1" Grid.Column="0" Background="#FFF7F7F7" Margin="0,0,10,0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <Button Content="Search For Request" Margin="5,10" Width="180" Background="#FF28965A" Foreground="White" Click="SearchForRequest_Click" />
+                <Button Content="Card View" Margin="5,10" Width="180" Background="#FF28965A" Foreground="White" Click="CardView_Click" />
+                <Button x:Name="ListView" Content="List View" Margin="5,10" Width="180" Background="#FF28965A" Foreground="White" Click="ListView_Click" />
+                <Button Content="Request a Service" Margin="5,20" Width="180" Background="#FF28965A" Foreground="White" Click="RequestService_Click" />
+            </StackPanel>
+
+            <Frame x:Name="MainFrame" Grid.Row="1" Grid.Column="1" Margin="0" NavigationUIVisibility="Hidden" />
+        </Grid>
+    </Grid>
+</Window>
