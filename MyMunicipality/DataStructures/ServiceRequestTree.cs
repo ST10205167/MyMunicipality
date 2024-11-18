@@ -49,9 +49,9 @@ namespace MyMunicipality.DataStructures
         {
             var preloadedRequests = new List<ServiceRequests>
             {
-                new ServiceRequests(requestIdCounter++, "Pending", "Water", "Fix the broken pipe at Main Street", DateTime.Now.AddDays(-2), "Main Street", "pipe.jpg", null, "image"),
-                new ServiceRequests(requestIdCounter++, "Completed", "Electricity", "Repair street lights on 5th Avenue", DateTime.Now.AddDays(-4), "5th Avenue", "lights.jpg", null, "image"),
-                new ServiceRequests(requestIdCounter++, "Pending", "Sanitation", "Clean up the trash in Central Park", DateTime.Now.AddDays(-1), "Central Park", "trash.jpg", null, "image")
+                new ServiceRequests(requestIdCounter++, "Pending", "Water", "Fix the broken pipe at Main Street", DateTime.Now.AddDays(-2), "Main Street", "pack://application:,,,/Resources/pipeburst.png", null, "image"),
+                new ServiceRequests(requestIdCounter++, "Completed", "Roads", "Repair street roads of potholes", DateTime.Now.AddDays(-4), "5th Avenue", "Resources/road.jpg", null, "image"),
+                new ServiceRequests(requestIdCounter++, "Pending", "Sanitation", "Clean up the trash in the streets", DateTime.Now.AddDays(-1), "Central Park", "Resources/dirtyroad.jpg", null, "image")
             };
 
             foreach (var request in preloadedRequests)

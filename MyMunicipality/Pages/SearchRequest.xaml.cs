@@ -46,7 +46,7 @@ namespace MyMunicipality.Pages
 
             if (string.IsNullOrWhiteSpace(searchText))
             {
-                MessageBox.Show("Please enter a category or ID to search.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Please enter a category to search.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 

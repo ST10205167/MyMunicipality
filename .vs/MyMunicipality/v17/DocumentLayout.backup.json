@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ruten\\source\\repos\\MyMunicipality\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BEF1CD-E846-491A-961E-9B1F5C4DA012}|MyMunicipality\\MyMunicipality.csproj|c:\\users\\ruten\\source\\repos\\mymunicipality\\mymunicipality\\datastructures\\servicerequesttree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BEF1CD-E846-491A-961E-9B1F5C4DA012}|MyMunicipality\\MyMunicipality.csproj|solutionrelative:mymunicipality\\datastructures\\servicerequesttree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5BEF1CD-E846-491A-961E-9B1F5C4DA012}|MyMunicipality\\MyMunicipality.csproj|c:\\users\\ruten\\source\\repos\\mymunicipality\\mymunicipality\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5BEF1CD-E846-491A-961E-9B1F5C4DA012}|MyMunicipality\\MyMunicipality.csproj|solutionrelative:mymunicipality\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 174,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ruten\\source\\repos\\MyMunicipality\\MyMunicipality\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MyMunicipality\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ruten\\source\\repos\\MyMunicipality\\MyMunicipality\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MyMunicipality\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAzwEIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:01:43.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceRequestTree.cs",
+              "DocumentMoniker": "C:\\Users\\ruten\\source\\repos\\MyMunicipality\\MyMunicipality\\DataStructures\\ServiceRequestTree.cs",
+              "RelativeDocumentMoniker": "MyMunicipality\\DataStructures\\ServiceRequestTree.cs",
+              "ToolTip": "C:\\Users\\ruten\\source\\repos\\MyMunicipality\\MyMunicipality\\DataStructures\\ServiceRequestTree.cs",
+              "RelativeToolTip": "MyMunicipality\\DataStructures\\ServiceRequestTree.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDMAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:00:09.711Z",
+              "EditorCaption": ""
             }
           ]
         },
